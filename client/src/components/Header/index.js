@@ -4,9 +4,9 @@ import '../../App.css';
 
 function Header() {
     return (
-        <header className='container fs-2'>
+        <header className='container fs-5 mt-2'>
             <div className='d-flex justify-content-between'>
-                <h1><Link className='text-decoration-none fs-2' to={'/'}>Spencer Moyer</Link></h1>
+                <Link className='text-decoration-none' to={'/'}>Spencer Moyer</Link>
                 <Nav />
             </div>
         </header>

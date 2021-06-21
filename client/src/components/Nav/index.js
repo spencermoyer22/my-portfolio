@@ -6,7 +6,7 @@ function Nav() {
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
     return (
-        <nav className='col-6'>
+        <nav className='col-4'>
             <ul className='d-flex flex-wrap justify-content-between' style={{listStyleType: 'none'}}>
                 {categories.map(category => (
                     <li className={`mx-1 ${currentCategory.name === category.name}`} key={category.name}>

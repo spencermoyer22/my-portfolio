@@ -56,6 +56,9 @@ function Contact() {
                     )}
                     <button type='submit' className='btn'>Submit</button>
                 </form>
+                <p className='fs-4 text-center mt-3'>
+                    Leave me a message or follow one of the links below!
+                </p>
             </div>
         </div>
     );

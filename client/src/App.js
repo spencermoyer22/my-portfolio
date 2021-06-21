@@ -4,6 +4,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route component={About}/>
           </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
   );
