@@ -1,5 +1,5 @@
 function Portfolio() {
-    const projects = [{name: 'gun-show'}, {name: 'event-finder'}, {name: 'run-buddy'}, {name: 'random1'}, {name: 'random2'}, {name: 'random3'}];
+    const projects = [{name: 'tutor-time'}, {name: 'gun-show'}, {name: 'event-finder'}, {name: 'run-buddy'}, {name: 'random1'}, {name: 'random2'}];
 
     return (
         <div className='container'>
