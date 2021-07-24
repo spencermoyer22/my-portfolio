@@ -1,24 +1,28 @@
 import {useState} from 'react';
 import { Link } from 'react-router-dom';
+import Pdf from '../../assets/resume.pdf';
 
 function Nav() {
-    const categories = [{name: '', title: 'About Me'}, {name: 'portfolio', title: 'Portfolio'}, {name: 'contact', title: 'Contact'}, {name: 'resume', title: 'Resume'}];
+    const categories = [{link: '', title: 'About Me'}, {link: 'portfolio', title: 'Portfolio'}, {link: 'contact', title: 'Contact'}];
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
     return (
         <nav className='col-4'>
             <ul className='d-flex flex-wrap justify-content-between' style={{listStyleType: 'none'}}>
                 {categories.map(category => (
-                    <li className={`mx-1 ${currentCategory.name === category.name}`} key={category.name}>
+                    <li className={`mx-1 ${currentCategory.title === category.title}`} key={category.link}>
                         <Link 
-                        to={`/${category.name}`}
+                        to={`/${category.link}`}
                         onClick={() => {
                             setCurrentCategory(category)
                         }}
                         className='text-decoration-none'
                         >{category.title}</Link>
                     </li>
-                ))}    
+                ))}
+                <li className='mx-1'>
+                        <a href={Pdf} target='_blank' rel='noreferrer' className='text-decoration-none'>Resume</a>
+                </li>    
             </ul>
         </nav>
     );
