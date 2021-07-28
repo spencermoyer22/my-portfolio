@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Pdf from '../../assets/resume.pdf';
 
 function Nav() {
-    const categories = [{link: '', title: 'About Me'}, {link: 'portfolio', title: 'Portfolio'}, {link: 'contact', title: 'Contact'}];
+    const categories = [{link: '', title: 'About'}, {link: 'portfolio', title: 'Portfolio'}, {link: 'contact', title: 'Contact'}];
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
     return (

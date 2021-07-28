@@ -2,9 +2,10 @@ function Portfolio() {
     const projects = [{name: 'tutor-time'}, {name: 'gun-show'}, {name: 'event-finder'}, {name: 'run-buddy'}, {name: 'random1'}, {name: 'random2'}];
 
     return (
-        <div className='container'>
-            <h2 className='my-3'>Portfolio</h2>
-            <div className='row '>
+        <div className='container text-center'>
+            <h2 className='mt-5'>Recent Work</h2>
+            <p style={{fontSize: 20}}>Here are some projects I have worked on recently</p>
+            <div className='row mt-5'>
                 {projects.map((project) => (
                     <img 
                     src={require(`../../assets/images/${project.name}.png`).default}
