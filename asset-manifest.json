@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.801cf490.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.40dd21b2.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.40dd21b2.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.ec2a15a0.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.588d37d5.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.588d37d5.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.ba5e0ac7.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.ba5e0ac7.js.map",
     "static/js/2.2442fab9.chunk.js": "/my-portfolio/static/js/2.2442fab9.chunk.js",
@@ -10,21 +10,22 @@
     "static/js/3.c00a78d9.chunk.js": "/my-portfolio/static/js/3.c00a78d9.chunk.js",
     "static/js/3.c00a78d9.chunk.js.map": "/my-portfolio/static/js/3.c00a78d9.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.801cf490.chunk.css.map": "/my-portfolio/static/css/main.801cf490.chunk.css.map",
+    "static/css/main.ec2a15a0.chunk.css.map": "/my-portfolio/static/css/main.ec2a15a0.chunk.css.map",
     "static/js/2.2442fab9.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.2442fab9.chunk.js.LICENSE.txt",
     "static/media/event-finder.png": "/my-portfolio/static/media/event-finder.107ef6b0.png",
-    "static/media/github-logo.png": "/my-portfolio/static/media/github-logo.dde6b44f.png",
     "static/media/gun-show.png": "/my-portfolio/static/media/gun-show.3815c8cb.png",
+    "static/media/linkedin-logo.png": "/my-portfolio/static/media/linkedin-logo.439f996d.png",
     "static/media/random1.png": "/my-portfolio/static/media/random1.9e177f81.png",
     "static/media/random2.png": "/my-portfolio/static/media/random2.60d72f09.png",
-    "static/media/resume.bc91cfe4.pdf": "/my-portfolio/static/media/resume.bc91cfe4.pdf",
+    "static/media/resume.b44ebdd1.pdf": "/my-portfolio/static/media/resume.b44ebdd1.pdf",
     "static/media/run-buddy.png": "/my-portfolio/static/media/run-buddy.408a34ea.png",
-    "static/media/tutor-time.png": "/my-portfolio/static/media/tutor-time.47f3eec7.png"
+    "static/media/tutor-time.png": "/my-portfolio/static/media/tutor-time.47f3eec7.png",
+    "static/media/twitter-logo.png": "/my-portfolio/static/media/twitter-logo.1d7b8120.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ba5e0ac7.js",
     "static/js/2.2442fab9.chunk.js",
-    "static/css/main.801cf490.chunk.css",
-    "static/js/main.40dd21b2.chunk.js"
+    "static/css/main.ec2a15a0.chunk.css",
+    "static/js/main.588d37d5.chunk.js"
   ]
 }
