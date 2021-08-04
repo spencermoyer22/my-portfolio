@@ -16,12 +16,12 @@ function Nav() {
                         onClick={() => {
                             setCurrentCategory(category)
                         }}
-                        className='text-decoration-none'
+                        className='text-decoration-none middle'
                         >{category.title}</Link>
                     </li>
                 ))}
                 <li className='mx-1'>
-                        <a href={Pdf} target='_blank' rel='noreferrer' className='text-decoration-none'>Resume</a>
+                        <a href={Pdf} target='_blank' rel='noreferrer' className='text-decoration-none middle'>Resume</a>
                 </li>    
             </ul>
         </nav>

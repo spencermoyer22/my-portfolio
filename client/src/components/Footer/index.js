@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer className='m-5 py-3 d-flex justify-content-center align-items-center'>
+        <footer className='mt-5 mx-5 pt-3 d-flex justify-content-center align-items-center'>
              <p>
                 Copyright &copy; 2021 Spencer Moyer
             </p>
