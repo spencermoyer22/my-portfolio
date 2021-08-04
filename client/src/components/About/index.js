@@ -1,4 +1,7 @@
 function About() {
+    
+    const skills = ['JavaScript', 'NodeJS', 'Git', 'React', 'MongoDB', 'Heroku','Handlebars', 'MySQL'];
+
     return (
         <div className='d-flex justify-content-center mt-5 px-5'>
             <div className='mt-5'>
@@ -23,7 +26,19 @@ function About() {
                     </p>
                 </div>
                 <div>
-                    <h2 className='text-center'>Skills</h2>
+                    <h2 className='text-center'>Some Skills I Use</h2>
+                    <div className='skills-container container d-flex flex-wrap'>
+                        {skills.map((skill, i) => (
+                            <div className='col-2 skill mt-5 mx-5 rounded d-flex justify-content-center'>
+                                <img
+                                    src={require(`../../assets/images/${i}.png`).default}
+                                    alt={skill}
+                                    className='skill-img my-3'
+                                    style={{maxWidth: 75}}
+                                />
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

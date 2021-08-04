@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #2F3637;
+  --primary-color: #262B2C;
   --secondary-color: #DEE3E3;
   --tertiary-color: #869598;
 }
@@ -30,4 +30,13 @@ a {
 
 #about-text ul li {
   margin-top: 5px;
+}
+
+.skill {
+  border: 2px solid var(--tertiary-color);
+}
+
+.skill:hover {
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 0 10px var(--secondary-color);
 }
