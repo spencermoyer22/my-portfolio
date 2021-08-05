@@ -7,23 +7,9 @@ function About() {
             <div className='mt-5'>
                 <div style={{fontSize: 20}} className='' id='about-text'>
                     <h2 className='text-center'>Hello, my name is <span className='tertiary'>Spencer Moyer</span></h2>
-                    <p className='my-4 text-center px-5 mx-5'>
+                    <p className='my-4 text-center px-lg-5 px-0 mx-lg-5 mx-0'>
                         I am a Full-Stack Developer based in San Diego, California. I recently earned a Full Stack Web Development certificate through University of Arizona. I also graduated from Tiffin University with a Bachelor's in Computer Information Systems. I am an enthusiastic developer looking to grow my skills as a young programmer.
                     </p>
-                    {/* <p className='my-4 text-start px-5'>
-                        Some other things I enjoy when I am not coding
-                        <ul className='mt-3'>
-                            <li>
-                                Working Out
-                            </li>
-                            <li>
-                                Playing video games
-                            </li>
-                            <li>
-                                Traveling
-                            </li>
-                        </ul>
-                    </p> */}
                 </div>
                 <div>
                     <h2 className='text-center mt-5'>A few of my <span className='tertiary'>skills</span></h2>

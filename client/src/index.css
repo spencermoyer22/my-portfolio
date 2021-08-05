@@ -64,6 +64,8 @@ a:hover {
   margin-top: 5px;
 }
 
+/* create animations and design for skills on about page */
+
 .skill {
   border: 2px solid var(--tertiary-color);
   transition: transform .2s;
@@ -71,9 +73,10 @@ a:hover {
 
 .skill:hover {
   border: 2px solid var(--secondary-color);
-  box-shadow: 0 0 10px var(--secondary-color);
   transform: scale(1.05);
 }
+
+/* finish skills */
 
 .tertiary {
   color: var(--tertiary-color);
@@ -90,3 +93,11 @@ a:hover {
 }
 
 /* finish footer links */
+
+/* style the contact page sections */
+
+.contact-section {
+  background-color: var(--tertiary-color);
+}
+
+/* finish contact page */
