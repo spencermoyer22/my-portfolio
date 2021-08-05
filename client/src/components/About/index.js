@@ -26,7 +26,7 @@ function About() {
                     </p> */}
                 </div>
                 <div>
-                    <h2 className='text-center mt-5'>Some <span className='tertiary'>Skills</span> I Use</h2>
+                    <h2 className='text-center mt-5'>A few of my <span className='tertiary'>skills</span></h2>
                     <div className='d-flex flex-wrap'>
                         {skills.map((skill, i) => (
                             <div className='col-5 col-lg-2 skill mt-4 mx-auto mx-lg-5 rounded d-flex flex-column align-items-center justify-content-center'>
