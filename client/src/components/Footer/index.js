@@ -1,10 +1,10 @@
 function Footer() {
     return (
-        <footer className='mt-5 mx-5 pt-3 d-flex justify-content-center align-items-center'>
+        <footer className='mt-5 pt-3 d-flex flex-wrap justify-content-center align-items-center'>
              <p>
                 Copyright &copy; 2021 Spencer Moyer
             </p>
-            <ul style={{listStyle: 'none'}} className='d-flex justify-content-center'>
+            <ul style={{listStyle: 'none'}} className='d-flex justify-content-center px-4'>
                 <li className='mx-3'>
                     <a href="https://www.linkedin.com/in/spencer-moyer-08b347133/" className='grow' target="_blank" rel='noreferrer'><img src={require("../../assets/images/linkedin-logo.png").default} alt="LinkedIn logo" style={{height: 25}}/></a>
                 </li>

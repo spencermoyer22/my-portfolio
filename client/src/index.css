@@ -97,7 +97,7 @@ a:hover {
 /* style the contact page sections */
 
 .contact-section {
-  background-color: var(--tertiary-color);
+  border: 2px solid var(--tertiary-color);
 }
 
 /* finish contact page */
