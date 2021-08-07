@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import { Link } from 'react-router-dom';
 import Pdf from '../../assets/resume.pdf';
+import Burger from '../Burger';
 
 function Nav() {
     const categories = [{link: '', title: 'About'}, {link: 'portfolio', title: 'Portfolio'}, {link: 'contact', title: 'Contact'}];
@@ -24,6 +25,7 @@ function Nav() {
                         <a href={Pdf} target='_blank' rel='noreferrer' className='text-decoration-none middle'>Resume</a>
                 </li>    
             </ul>
+            <Burger/>
         </nav>
     );
 };
