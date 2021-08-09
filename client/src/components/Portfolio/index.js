@@ -1,11 +1,11 @@
 function Portfolio() {
     const projects = [
         { name: 'tutor-time', description: '', github: 'https://github.com/spencermoyer22/tutor-time', website: 'https://tranquil-hollows-19559.herokuapp.com/' }, 
-        { name: 'portfolio', description: '', github: 'https://github.com/spencermoyer22/portfolio', website: '' }, 
-        { name: 'shop-shop', description: '' }, 
-        { name: 'gun-show', description: '' }, 
-        { name: 'budget-tracker', description: '' }, 
-        { name: 'note-taker', description: '' }
+        { name: 'portfolio', description: '', github: 'https://github.com/spencermoyer22/portfolio', website: 'https://spencermoyer22.github.io/portfolio/' }, 
+        { name: 'shop-shop', description: '', github: 'https://github.com/spencermoyer22/shop-shop', website: 'https://sheltered-dusk-84272.herokuapp.com/' }, 
+        { name: 'gun-show', description: '', github: 'https://github.com/spencermoyer22/JustTechGunShow', website: 'https://thawing-plains-49978.herokuapp.com/' }, 
+        { name: 'budget-tracker', description: '', github: 'https://github.com/spencermoyer22/budget-tracker', website: 'https://obscure-journey-56604.herokuapp.com/' }, 
+        { name: 'note-taker', description: '', github: 'https://github.com/spencermoyer22/note-taker', website: 'https://rocky-springs-14001.herokuapp.com/notes' }
     ];
 
     return (
