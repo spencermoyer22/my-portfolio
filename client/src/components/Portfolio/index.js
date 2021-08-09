@@ -1,5 +1,12 @@
 function Portfolio() {
-    const projects = [{ name: 'tutor-time' }, { name: 'gun-show' }, { name: 'event-finder' }, { name: 'run-buddy' }, { name: 'random1' }, { name: 'random2' }];
+    const projects = [
+        { name: 'tutor-time', description: '', github: 'https://github.com/spencermoyer22/tutor-time', website: 'https://tranquil-hollows-19559.herokuapp.com/' }, 
+        { name: 'portfolio', description: '', github: 'https://github.com/spencermoyer22/portfolio', website: '' }, 
+        { name: 'shop-shop', description: '' }, 
+        { name: 'gun-show', description: '' }, 
+        { name: 'budget-tracker', description: '' }, 
+        { name: 'note-taker', description: '' }
+    ];
 
     return (
         <div className='container text-center mx-0 px-4'>
@@ -13,8 +20,12 @@ function Portfolio() {
                             alt={project.name}
                             className='mx-auto project-img'
                         ></img>
-                        <div className='project-overlay'>
-                            <p>{project.name}</p>
+                        <div className='project-overlay py-3'>
+                            <p style={{fontSize: 16}}>{project.name}</p>
+                            <div className='d-flex justify-content-around'>
+                                <button className='btn-contact btn-project'><a href={project.github} target='_blank' rel='noreferrer'>GitHub</a></button>
+                                <button className='btn-contact btn-project'><a href={project.website} target='_blank' rel='noreferrer'>Website</a></button>
+                            </div>
                         </div>
                     </div>
                 ))}
