@@ -13,5 +13,8 @@ A front end React website I created as a portfolio site for myself. I used React
 ## Website
 https://spencermoyer22.github.io/portfolio
 
+## Screeenshot
+![Portfolio](./client/src/assets/images/portfolio.png)
+
 ## Contribution
 Made by Spencer Moyer
