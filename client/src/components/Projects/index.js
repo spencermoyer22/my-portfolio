@@ -16,7 +16,7 @@ function Projects() {
                 {projects.map((project) => (
                     <div className='project mx-auto col-xl-4 col-lg-6 col-sm-12 p-0 m-0' style={{position: 'relative'}}>
                         <img
-                            src={require(`../../assets/images/${project.name}.png`).default}
+                            src={require(`../../assets/images/${project.name}-min.png`).default}
                             alt={project.name}
                             className='mx-auto project-img'
                         ></img>
