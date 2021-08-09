@@ -52,7 +52,7 @@ function Nav() {
                     </li>
                 ))}
                 <li className='mx-1'>
-                    <a href={Pdf} target='_blank' rel='noreferrer' className='text-decoration-none middle'>Resume</a>
+                    <a href={Pdf} target='_blank' rel='noreferrer' className='text-decoration-none middle' onClick={() => setOpen(!open)}>Resume</a>
                 </li>
             </StyledMenu>
         </div>

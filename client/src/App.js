@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div class='flex-column'>
         <Header />
-        <div className='container pt-lg-5 pt-0'>
+        <div className='container pt-lg-5 pt-2'>
           <Switch>
             <Route exact path='/' component={About}/>
             <Route exact path='/portfolio' component={Portfolio}/>
