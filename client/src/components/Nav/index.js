@@ -36,7 +36,7 @@ const StyledMenu = styled.ul`
 
 function Nav() {
     const [open, setOpen] = useState(false);
-    const categories = [{ link: '', title: 'About' }, { link: 'portfolio', title: 'Portfolio' }, { link: 'contact', title: 'Contact' }];
+    const categories = [{ link: '', title: 'About' }, { link: 'projects', title: 'Projects' }, { link: 'contact', title: 'Contact' }];
 
     return (
         <div>
