@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.037bb108.chunk.css",
-    "main.js": "/portfolio/static/js/main.0ae113de.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0ae113de.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.0a92822c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0a92822c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5318eb0a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5318eb0a.js.map",
     "static/js/2.07839ae3.chunk.js": "/portfolio/static/js/2.07839ae3.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/linkedin-logo.png": "/portfolio/static/media/linkedin-logo.439f996d.png",
     "static/media/note-taker-min.png": "/portfolio/static/media/note-taker-min.a7ecb8ef.png",
     "static/media/portfolio-min.png": "/portfolio/static/media/portfolio-min.510e6d39.png",
-    "static/media/resume.5abfee46.pdf": "/portfolio/static/media/resume.5abfee46.pdf",
+    "static/media/resume.f7f13a1d.pdf": "/portfolio/static/media/resume.f7f13a1d.pdf",
     "static/media/selfie.jpeg": "/portfolio/static/media/selfie.5386c9c4.jpeg",
     "static/media/shop-shop-min.png": "/portfolio/static/media/shop-shop-min.efbbb2e7.png",
     "static/media/tutor-time-min.png": "/portfolio/static/media/tutor-time-min.8db66fd1.png",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.5318eb0a.js",
     "static/js/2.07839ae3.chunk.js",
     "static/css/main.037bb108.chunk.css",
-    "static/js/main.0ae113de.chunk.js"
+    "static/js/main.0a92822c.chunk.js"
   ]
 }
