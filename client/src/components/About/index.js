@@ -8,7 +8,7 @@ function About() {
                 <div style={{fontSize: 20}} className='' id='about-text'>
                     <h2 className='text-center'>Hello, my name is <span className='tertiary'>Spencer Moyer</span></h2>
                     <p className='my-4 text-center px-lg-5 px-0 mx-lg-5 mx-0'>
-                        I am a Full-Stack Developer based in San Diego, California. I graduated from Tiffin University with a Bachelor's Degree in Computer Information Systems, and recently earned a Full Stack Web Development Certificate from The University of Arizona. I am an enthusiastic developer looking to satify my curiosty for coding and enhance my programming skills as a Full Stack Developer. I love coding, playing sports, and traveling when possible.
+                        I am a Full-Stack Developer based in San Diego, California. I graduated from Tiffin University with a Bachelor's Degree in Computer Information Systems, and recently earned a Full Stack Web Development Certificate from The University of Arizona where I finished at the top of my class. I am an enthusiastic developer looking to satisfy my curiosty for coding and enhance my programming skills as a Full Stack Developer. I love coding, playing sports, and traveling when possible.
                     </p>
                 </div>
                 <div>
